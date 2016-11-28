@@ -1,4 +1,4 @@
-# bassjs
+# bass.js
 
 ## Summary
 
@@ -10,8 +10,11 @@ usage with tools such as [JSS](https://github.com/cssinjs/jss), via
 
 ## Installation
 
+**NOTE:** The `bassjs` module is a another project by @jxnblk. This one has
+a dot before the `js`.
+
 ```sh
-yarn add bassjs
+yarn add bass.js
 ```
 
 Versioning follows basscss's
