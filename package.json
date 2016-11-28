@@ -2,7 +2,7 @@
   "name": "bass.js",
   "version": "8.0.3-3",
   "description": "Basscss styles in JS format, to use in eg. JSS",
-  "main": "index.js",
+  "main": "dot.js",
   "scripts": {
     "build": "node build",
     "prepublish": "npm run build"

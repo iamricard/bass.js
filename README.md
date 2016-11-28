@@ -17,4 +17,10 @@ a dot before the `js`.
 yarn add bass.js
 ```
 
-Versioning follows basscss's
+## Usage
+
+You have two versions `bass.js/dot` and `bass.js/dotless` the only difference
+is the fact that `dot` will provide classes as `.h1`, `.m0`, while the
+`dotless` version will simply be `h1` and `m0`. Defaults to `bass.js/dot`.
+
+Versioning follows basscss's.
