@@ -1,6 +1,6 @@
 {
   "name": "bassjs",
-  "version": "1.0.0",
+  "version": "8.0.3",
   "description": "Basscss styles in JS format, to use in eg. JSS",
   "main": "bass.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "Ricard Solé <ricardsolecasas@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "basscss": "^8.0.3",
+    "basscss": "8.0.3",
     "native-css": "^1.2.5",
     "ramda": "^0.22.1"
   }
