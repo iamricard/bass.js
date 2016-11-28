@@ -1,10 +1,10 @@
 {
   "name": "bass.js",
-  "version": "8.0.3-1",
+  "version": "8.0.3-2",
   "description": "Basscss styles in JS format, to use in eg. JSS",
-  "main": "bass.js",
+  "main": "index.js",
   "scripts": {
-    "build": "node build > bass.js",
+    "build": "node build",
     "prepublish": "npm run build"
   },
   "keywords": [],

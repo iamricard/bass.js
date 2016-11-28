@@ -1,8 +1,10 @@
+const fs = require('fs')
 const R = require('ramda')
 const nativeCSS = require('native-css')
 const cssRules = nativeCSS.convert('node_modules/basscss/css/basscss.css')
 
-const transformRuleName = (rule) => R.test(/\@media/, rule) ? rule : `.${R.replace(/_/g, '-', rule)}`
+const transformRuleName = (rule) =>
+  R.test(/\@media/, rule) ? rule : `.${R.replace(/_/g, '-', rule)}`
 
 const transformMediaQueries = (values) => {
   if (R.has('__expression__', values)) {
@@ -22,4 +24,9 @@ const formatKeys = R.compose(
   R.toPairs
 )
 
-console.log(JSON.stringify(formatKeys(cssRules), null, 2))
+const jsRules = formatKeys(cssRules)
+
+fs.writeFileSync(
+  './index.js',
+  `module.exports = ${JSON.stringify(jsRules, null, 2)}\n`
+)
