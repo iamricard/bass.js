@@ -14,5 +14,18 @@
     "basscss": "8.0.3",
     "native-css": "^1.2.5",
     "ramda": "^0.22.1"
-  }
+  },
+  "dependencies": {
+    "basscss": "^8.0.3",
+    "native-css": "^1.2.5",
+    "ramda": "^0.22.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcsole/bass.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rcsole/bass.js/issues"
+  },
+  "homepage": "https://github.com/rcsole/bass.js#readme"
 }
