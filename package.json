@@ -1,6 +1,6 @@
 {
   "name": "bass.js",
-  "version": "8.0.3-3",
+  "version": "8.0.3-5",
   "description": "Basscss styles in JS format, to use in eg. JSS",
   "main": "dot.js",
   "scripts": {
